@@ -7,7 +7,7 @@ html {
 
     border: 15px solid #2B81AC;
     background: #3399CC;
-    height: 100%;
+    min-height: 100%;
 
 }
 body {
