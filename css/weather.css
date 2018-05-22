@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+html {
+
+    border: 15px solid #2B81AC;
+    background: #3399CC;
+    height: 100%;
+
+}
+body {
+
+    text-align: center;
+}
+ul {
+    display: inline-block;
+    font-size: 0;
+    border: 1px solid white;
+    padding: 0;
+    width: 75%;
+
+}
+li {
+    display: inline-block;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 15px;
+
+}
+.town {
+    color: white;
+}
+ul:first-child {
+    width: 50%;
+    background: #3399CC;
+}
+ul:nth-child(2) {
+    width: 25%;
+    background: #33CCCC;
+}
+ul:nth-child(3) {
+    width: 25%;
+    background: #996699;
+}
