@@ -10,7 +10,7 @@ html {
 
 }
 body {
-
+    min-height: 100%;
     text-align: center;
 }
 ul {
@@ -21,25 +21,70 @@ ul {
     width: 75%;
 
 }
+li:hover {
+    opacity: 50%;
+}
+footer {
+    display: inline-block;
+    padding: 0;
+    width: 75%;
+    color: white;
+    text-align: left;
+    margin-top: 15px;
+}
 li {
     display: inline-block;
     font-size: 20px;
     border: 1px solid white;
     padding: 15px;
+    line-height: 30px;
+    color: white;
 
 }
-.town {
-    color: white;
+.temp {
+    opacity: 50%;
 }
-ul:first-child {
-    width: 50%;
+li:first-child {
+    min-width: 50%;
     background: #3399CC;
 }
-ul:nth-child(2) {
-    width: 25%;
+li:nth-child(2) {
+    min-width: 25%;
     background: #33CCCC;
 }
-ul:nth-child(3) {
-    width: 25%;
+li:nth-child(3) {
+    min-width: 25%;
     background: #996699;
+}
+li:nth-child(4) {
+    min-width: 25%;
+    background: #C24747;
+}
+li:nth-child(5) {
+    min-width: 25%;
+    background: #E2674A;
+}
+li:nth-child(6) {
+    min-width: 25%;
+    background: #FFCC66;
+}
+li:nth-child(7) {
+    min-width: 25%;
+    background: #99CC99;
+}
+li:nth-child(8) {
+    min-width: 25%;
+     background: #669999;
+}
+li:nth-child(9) {
+    min-width: 50%;
+    background: #CC6699;
+}
+li:nth-child(10) {
+    min-width: 25%;
+    background: #339966;
+}
+li:nth-child(11) {
+    width: 100%;
+    background: #666699;
 }
